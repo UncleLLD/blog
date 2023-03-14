@@ -1,13 +1,13 @@
 ---
 layout: '../../layouts/MarkdownPost.astro'
 title: 'Google三大论文之GFS'
-pubDate: 2036-01-01
+pubDate: 2023-03-13
 description: 'Google GFS（Google File System） 文件系统，一个面向大规模数据密集型应用的、可伸缩的分布式文件系统。GFS 虽然运行在廉价的普遍硬件设备上，但是它依然了提供灾难冗余的能力，为大量客户机提供了高性能的服务。'
 author: 'UncleLLD'
 cover:
-    url: 'https://img-blog.csdnimg.cn/10fabc9a6efe45aca9e199aac9364f99.png'
+    url: 'https://i.328888.xyz/2023/03/14/9HfJZ.jpeg'
     alt: 'cover'
-tags: ["Google", "GFS"]
+tags: ["Google", "GFS", "文件系统"]
 theme: 'dark'
 featured: true
 ---
