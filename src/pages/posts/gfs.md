@@ -7,7 +7,7 @@ author: 'UncleLLD'
 cover:
     url: 'https://i.328888.xyz/2023/03/14/9HfJZ.jpeg'
     alt: 'cover'
-tags: ["Google", "GFS", "文件系统"]
+tags: ["Google", "GFS", "文件系统", "论文总结"]
 theme: 'dark'
 featured: true
 ---
