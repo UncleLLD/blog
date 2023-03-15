@@ -5,7 +5,7 @@ pubDate: 2023-03-15
 description: 'Bigtable 是一个分布式的结构化数据存储系统，它被设计用来处理海量数据：通常是分布在数千台普通服务器上的 PB 级的数据。'
 author: 'UncleLLD'
 cover:
-    url: 'https://imgloc.com/i/JEQDA'
+    url: 'https://i.328888.xyz/2023/03/15/JEQDA.jpeg'
     alt: 'cover'
 tags: ["Google", "BigTable", "大数据", "论文总结"]
 theme: 'dark'
