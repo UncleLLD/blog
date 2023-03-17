@@ -12,7 +12,6 @@ theme: 'dark'
 featured: true
 ---
 
-<a href="https://imgloc.com/i/LIbgQ"><img src="https://i.328888.xyz/2023/03/17/LIbgQ.md.jpeg" alt="LIbgQ.md.jpeg" border="0"></a>
 
 
 
@@ -84,8 +83,7 @@ MapReduce 模型可以有多种不同的实现方式。如何正确选择取决�
 
 通过将 Map 调用的输入数据自动分割为 M 个数据片段的集合，Map 调用被分布到多台机器上执行。输入的数据片段能够在不同的机器上并行处理。使用分区函数将 Map 调用产生的中间 key 值分成 R 个不同分区Reduce 调用也被分布到多台机器上执行。分区数量（R）和分区函数由用户来指定。
 
-![](https://i.328888.xyz/2023/03/17/LIwFZ.md.jpeg)
-
+<a href="https://imgloc.com/i/LIbgQ"><img src="https://i.328888.xyz/2023/03/17/LIbgQ.md.jpeg" alt="LIbgQ.md.jpeg" border="0"></a>
 
 
 上图展示了MapReduce 实现中操作的全部流程。当用户调用 MapReduce 函数时，将发生下面的一系列动作（下面的序号和图 1 中的序号一一对应）：
@@ -210,7 +208,7 @@ for each word w in contents:
 
 分布式的 grep 程序需要扫描大概 10 的 10 次方个由 100 个字节组成的记录，查找出现概率较小的 3个字符的模式。输入数据被拆分成大约 64M 的 Block（M=15000），整个输出数据存放在一个文件中（R=1）。
 
-![](https://i.328888.xyz/2023/03/17/LIlj8.jpeg)
+<img src="https://i.328888.xyz/2023/03/17/LIlj8.jpeg" alt="LIlj8.jpeg" border="0" />
 
 **上图显示了这个运算随时间的处理过程。其中 Y 轴表示输入数据的处理速度**。处理速度随着参与MapReduce 计算的机器数量的增加而增加，**当 1764 台 worker 参与计算的时，处理速度达到了 30GB/s**。当Map 任务结束的时候，即在计算开始后 80 秒，输入的处理速度降到 0。整个计算过程从开始到结束一共花了大概 150 秒。
 
@@ -220,7 +218,7 @@ for each word w in contents:
 
 排序程序由不到 50 行代码组成。只有三行的 Map 函数从文本行中解析出 10 个字节的 key 值作为排序的key，并且把这个 key 和原始文本行作为中间的 key/value pair 值输出。
 
-![](https://i.328888.xyz/2023/03/17/LI2QF.md.jpeg)
+<img src="https://i.328888.xyz/2023/03/17/LI2QF.jpeg" alt="LI2QF.jpeg" border="0" />
 
 上图显示了这个排序程序的正常执行过程。左上的图显示了输入数据读取的速度，左边中间的图显示了中间数据从 Map 任务发送到 Reduce 任务的网络速度，左下图表示 Reduce 任务把排序后的数据写到最终的输出文件的速度，在第一个排序阶段结束和数据开始写入磁盘之间有一个小的延时，这是因为 worker 机器正在忙于排序中间数据。
 
@@ -246,11 +244,11 @@ MapReduce 库能广泛应用于我们日常工作中遇到的各类问题。它�
 * 从大量的新应用和新产品的网页中提取有用信息（比如，从大量的位置搜索网页中抽取地理位置信息）
 * 大规模的图形计算
 
-![](https://i.328888.xyz/2023/03/17/LIOlH.jpeg)
+<img src="https://i.328888.xyz/2023/03/17/LIOlH.jpeg" alt="LIOlH.jpeg" border="0" />
 
 上图显示了在源代码管理系统中，随着时间推移，独立的 MapReduce 程序数量的显著增加。MapReduce的成功取决于采用MapReduce库能够在不到半个小时时间内写出一个简单的程序，这个简单的程序能够在上千台机器的组成的集群上做大规模并发处理，这极大的加快了开发和原形设计的周期。另外，采用 MapReduce 库，可以让完全没有分布式和/或并行系统开发经验的程序员很容易的利用大量的资源，开发出分布式和/或并行处理的应用。
 
-![](https://i.328888.xyz/2023/03/17/LIbgQ.md.jpeg)
+<img src="https://i.328888.xyz/2023/03/17/LIbgQ.jpeg" alt="LIbgQ.jpeg" border="0" />
 
 在每个任务结束的时候，MapReduce 库统计计算资源的使用状况。
 
