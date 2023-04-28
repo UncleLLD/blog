@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/MarkdownPost.astro'
 title: '陆奇-奇绩创坛-新范式，新时代，新机会 '
-pubDate: 2023-04-19
+pubDate: 2023-04-28
 description: 'chatGPT带来的新范式，新时代，新机会'
 author: 'UncleLLD'
 cover:
