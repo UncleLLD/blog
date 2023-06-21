@@ -1,36 +1,16 @@
-## Astro Air Blog 是什么？
+## Astro-air-blog
 
-它是我基于 Astro 2.0 开发的一个博客模板，你可以直接使用它来搭建你的博客。我没有使用任何 CSS 框架以及 React 等前端框架，而是使用了 Astro 自带的组件库，这样可以让你的博客加载速度更快，同时也可以让你的博客更加轻量。
+参考yufengbiji的项目开发而成的个人网站，相关链接及教程：
 
-## 教程
+* [https://yufengbiji.com/posts/astro-air-blog-guide](https://yufengbiji.com/posts/astro-air-blog-guide)
 
-[https://yufengbiji.com/posts/astro-air-blog-guide](https://yufengbiji.com/posts/astro-air-blog-guide)
+* [https://yufengbiji.com](https://yufengbiji.com)
 
-## 预览
-
-[https://yufengbiji.com](https://yufengbiji.com)
-
-[https://astro.yufengbiji.com](https://astro.yufengbiji.com)
+* [https://astro.yufengbiji.com](https://astro.yufengbiji.com)
 
 ### 主页
+* [https://www.uncleai.cn/](https://www.uncleai.cn/)
 
-![首页](./public/preview/preview_index.png)
-
-### 文章黑暗模式
-
-![文章黑暗模式](./public/preview/preview_dark.png?)
-
-### 普通文章
-
-![普通文章模式](./public/preview/preview_light.png)
-
-### 语法高亮
-
-![Syntax](./public/preview/preview_syntaxHighlighting.png)
-
-### 三种图片显示模式
-
-![](./public/preview/preview_different_mode.png)
 
 有三种图片显示模式: wide, big, inline. 当你编写 mark 文件的时候可以指定 wide 或 big 或 inline 到你的图片 alt 属性中, 比如这样:
 
@@ -90,10 +70,6 @@
 | `npm run preview`      | 在发布之前，可以本地预览    |
 | `npm run astro ...`    | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro --help` | Get help using the Astro CLI                     |
-
-## 👀 想了解更多？
-
-正在撰写相关文章。
 
 
 ## 实用网站
