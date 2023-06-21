@@ -5,7 +5,7 @@ pubDate: 2023-06-09
 description: '二分法是算法中一种加速算法，实际场景中有很多应该该算法思想的，这里介绍一些二分法的相关应用：解方程近似解，离散化操作等'
 author: 'UncleLLD'
 cover:
-    url: 'https://staticcdn.boyuai.com/user-assets/5085/TqwNCYg3WWexMnHTJLPG6M/a1.png!png'
+    url: 'https://staticcdn.boyuai.com/user-assets/5085/JSeUPB57vJoEAL6Y6oXcKf/1.png!png'
     alt: 'cover'
 tags: ["二分法", "数据结构与算法", "应用"]
 theme: 'dark'
