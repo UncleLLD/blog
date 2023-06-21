@@ -78,7 +78,7 @@ int *q = upper_bound(a, a + n, 13);  // 第一个大于13的数字
 
 假如使用`lower_bound`和`upper_bound`二分查找同一个数字13，容易发现，得到的两个指针构成了一个左闭右开区间，这个区间里全部都是数字13。
 
-![img](https://staticcdn.boyuai.com/user-assets/5085/TqwNCYg3WWexMnHTJLPG6M/a1.png!png)
+![img|inline](https://staticcdn.boyuai.com/user-assets/5085/TqwNCYg3WWexMnHTJLPG6M/a1.png!png)
 
 巧妙地运用这两个函数，可以完成所有常见的二分查找操作：
 
@@ -108,7 +108,7 @@ int *q = upper_bound(a, a + n, 13);  // 第一个大于13的数字
 
 函数示意图：
 
-![img](https://staticcdn.boyuai.com/user-assets/5085/JSeUPB57vJoEAL6Y6oXcKf/1.png!png)
+![img|inline](https://staticcdn.boyuai.com/user-assets/5085/JSeUPB57vJoEAL6Y6oXcKf/1.png!png)
 
 这就是一个典型的二分法求方程的解了，是高中数学课本上所讲解的知识。
 
