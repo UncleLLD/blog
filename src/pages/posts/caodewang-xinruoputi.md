@@ -5,7 +5,7 @@ pubDate: 2023-06-17
 description: '曹德旺，籍贯福建福清，中华人民共和国企业家，福耀集团董事局主席、世界华人联合总会荣誉主席之一，首个安永全球企业家大奖华人获得者。曾任福建省政协委员、全国政协委员、国务院国情研究员、福建省政府特约经济研究员、中国汽车玻璃协会会长、福建省企业家协会常务副会长。'
 author: 'UncleLLD'
 cover:
-    url: 'https://zh.wikipedia.org/wiki/File:%E4%B8%80%E4%BA%BA%C2%B7%E4%B8%80%E5%BC%A0%EF%BD%9CNO.149_%E6%9B%B9%E5%BE%B7%E6%97%BA.jpg'
+    url: 'https://s1.locimg.com/2023/07/08/1859f4382f124.jpg'
     alt: 'cover'
 tags: ["书籍阅读"]
 theme: 'dark'
