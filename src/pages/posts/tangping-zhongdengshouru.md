@@ -21,7 +21,7 @@ featured: true
 
 世代消费观的形成与其人生经历息息相关。出生在1947-1951年的“团块世代”们的大半个人生是在日本经济的上升期度过的，而生活在90年代后的世代则截然不同。
 
-![图表1：日本世代划分和出生人口：团块次代|wide](https://wpimg-wscn.awtmt.com/d65380a6-f9ab-4ba5-9131-6285496d49a5.jpeg?imageView2/2/w/640)
+![▲图表1：日本世代划分和出生人口：团块次代|inline](https://wpimg-wscn.awtmt.com/d65380a6-f9ab-4ba5-9131-6285496d49a5.jpeg?imageView2/2/w/640)
 
 ▲图表1：日本世代划分和出生人口：团块次代
 
@@ -37,35 +37,35 @@ featured: true
 * **年收400万日元的高墙**：财富水平降低、女性地位崛起导致90年代后，日本终身未婚率上升；同时初婚年龄提高、生育欲望降低，使得日本老龄化率快速增长。
 * **注重性价比的消费观：**“团块次代”主要通过增加储蓄、削减开支的方式调节收入下挫的影响。无论是在日常的吃穿、还是在家庭日用品、耐用品上，都倾向于选择“性价比”更高的产品。低端消费市场迎来快速扩张期。
 
-![2|wide](https://wpimg-wscn.awtmt.com/86ef96cd-a04e-47f9-9565-aba54143589a.jpeg?imageView2/2/w/640)
+![2|inline](https://wpimg-wscn.awtmt.com/86ef96cd-a04e-47f9-9565-aba54143589a.jpeg?imageView2/2/w/640)
 
 ▲图表2：1948-2021年日本失业率 资料来源：日本厚生劳动省，野村东方国际证券
 
-![3|wide](https://wpimg-wscn.awtmt.com/b17ee4a7-ec60-4088-9b82-6d3b4911a904.jpeg?imageView2/2/w/640)
+![3|inline](https://wpimg-wscn.awtmt.com/b17ee4a7-ec60-4088-9b82-6d3b4911a904.jpeg?imageView2/2/w/640)
 
 ▲图表3：1988-2020年 日本15-24岁员工的雇佣形式 资料来源：日本厚生劳动省，野村东方国际证券
 
-![4|wide](https://wpimg-wscn.awtmt.com/b44ab91d-ba9d-486b-8070-58418254c2ef.jpeg?imageView2/2/w/640)
+![4|inline](https://wpimg-wscn.awtmt.com/b44ab91d-ba9d-486b-8070-58418254c2ef.jpeg?imageView2/2/w/640)
 
 ▲图表4：2021年日本 正式雇与非正式雇佣的工资差距
 
-![5|wide](https://wpimg-wscn.awtmt.com/6505e562-091a-405b-b52f-50a7f42b0414.jpeg?imageView2/2/w/640)
+![5|inline](https://wpimg-wscn.awtmt.com/6505e562-091a-405b-b52f-50a7f42b0414.jpeg?imageView2/2/w/640)
 
 ▲图表5：90年代以后步入社会的人群工资增长趋于平缓 注：数据为1990-2021年日本本科学历的男性正式员工的年龄-收入曲线
 
-![6|wide](https://wpimg-wscn.awtmt.com/2c102888-1e57-490f-9ae1-1c7c0f7dd771.jpeg?imageView2/2/w/640)
+![6|inline](https://wpimg-wscn.awtmt.com/2c102888-1e57-490f-9ae1-1c7c0f7dd771.jpeg?imageView2/2/w/640)
 
 ▲图表6：日本男女初婚年龄
 
-![7|wide](https://wpimg-wscn.awtmt.com/c53cd72c-e111-4b54-8b71-69278f81774f.jpeg?imageView2/2/w/640)
+![7|inline](https://wpimg-wscn.awtmt.com/c53cd72c-e111-4b54-8b71-69278f81774f.jpeg?imageView2/2/w/640)
 
 ▲图表7：日本结婚生育率与总和生育率 注：总和生育率指育龄女性平均的生育子女数；结婚生育率指结婚女性平均的生育子女数
 
-![8|wide](https://wpimg-wscn.awtmt.com/4aaaf27c-f5a5-43c5-8fa3-c80c1c73bb07.jpeg?imageView2/2/w/640)
+![8|inline](https://wpimg-wscn.awtmt.com/4aaaf27c-f5a5-43c5-8fa3-c80c1c73bb07.jpeg?imageView2/2/w/640)
 
 ▲图表8：90年代年轻人可支配收入普遍下滑 资料来源：日本统计局，野村东方国际证券
 
-![9|wide](https://wpimg-wscn.awtmt.com/72c1b67c-bff6-41b1-a6e3-7f7028094153.jpeg?imageView2/2/w/640)
+![9|inline](https://wpimg-wscn.awtmt.com/72c1b67c-bff6-41b1-a6e3-7f7028094153.jpeg?imageView2/2/w/640)
 
 ▲图表9：90年代团块次代消费 **在支出中的占比下滑** 资料来源：日本统计局，野村东方国际证券
 
@@ -86,11 +86,11 @@ featured: true
   - 比起物质更注重精神层面的富足，餐饮、通讯、美容、文娱服务为其消费的重点领域，“推活”便是近年来以年轻族群为中心蔓延开来的消费文化；
   - 注重单位时间的“性价比”。如，不愿参加冗长的团建活动，因为麻烦而不想谈恋爱，以2倍速观看电视剧，先看剧透在看电影等。注重“体验”而非“拥有”。
 
-  ![10|wide](https://wpimg-wscn.awtmt.com/212a8d6e-a20d-45a5-bd4d-51ce018a456a.jpeg?imageView2/2/w/640)
+  ![10|inline](https://wpimg-wscn.awtmt.com/212a8d6e-a20d-45a5-bd4d-51ce018a456a.jpeg?imageView2/2/w/640)
 
   ▲图表10：1965-2019年日本“高考”的不合格率：觉醒世代面临的升学压力减少注：合格人数=大学入学人数，不合格人数=大学报考人数-大学入学人数，不合格率=不合格人数/大学报考人数
 
-  ![img|wide](https://wpimg-wscn.awtmt.com/0b1442a6-8360-4ee9-a5b2-710bb01150f8.jpeg?imageView2/2/w/640)
+  ![img|inline](https://wpimg-wscn.awtmt.com/0b1442a6-8360-4ee9-a5b2-710bb01150f8.jpeg?imageView2/2/w/640)
 
   ▲图表11：1969-2019年日本新员工工作态度：生活成为人生的重心，不认为年轻时吃苦是必要的资料来源：日本生产性本部《新员工工作意识调查》，野村东方国际证券
 
@@ -98,7 +98,7 @@ featured: true
 
   ▲图表12：日本家庭支出中商品消费与服务消费占比 注：商品消费包括家具家饰、家清、服装、保健品、文化娱乐用品、美容个护用品；服务消费包括餐饮、交通通信、教育（不含学费）、文化娱乐服务、美容服务。
 
-![13|wide](https://wpimg-wscn.awtmt.com/fbe623e5-9a60-4373-98b6-aba6019023b2.jpeg?imageView2/2/w/640)
+![13|inline](https://wpimg-wscn.awtmt.com/fbe623e5-9a60-4373-98b6-aba6019023b2.jpeg?imageView2/2/w/640)
 
 ▲图表13：2002-2020年日本动漫市场规模及增速 资料来源：日本动画协会《动漫产业报告2021》，NFT，野村东方国际证券
 
