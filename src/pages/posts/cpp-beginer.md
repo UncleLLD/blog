@@ -2,7 +2,7 @@
 layout: '../../layouts/MarkdownPost.astro'
 title: 'C++初学者指南'
 pubDate: 2023-08-19
-description: '曹德旺，籍贯福建福清，中华人民共和国企业家，福耀集团董事局主席、世界华人联合总会荣誉主席之一，首个安永全球企业家大奖华人获得者。曾任福建省政协委员、全国政协委员、国务院国情研究员、福建省政府特约经济研究员、中国汽车玻璃协会会长、福建省企业家协会常务副会长。'
+description: 'cpp初学者指南'
 author: 'UncleLLD'
 cover:
     url: 'https://i.imgs.ovh/i/2023/08/20/64e1739ae3df5.png'
