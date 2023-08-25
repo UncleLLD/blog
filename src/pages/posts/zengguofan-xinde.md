@@ -2,10 +2,10 @@
 layout: '../../layouts/MarkdownPost.astro'
 title: '曾国藩启示录'
 pubDate: 2023-08-25
-description: '曾国藩启示录，关于修炼自己，为人处事，齐家，人生经历等'
+description: '曾国藩启示录，关于修炼自己，为人处事，齐家，人生经历'
 author: 'UncleLLD'
 cover:
-    url: 'https://bkimg.cdn.bcebos.com/pic/58ee3d6d55fbb2fb66e86f46404a20a44723dca6?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxNTA=,g_7,xp_5,yp_5/format,f_auto'
+    url: 'https://i.imgs.ovh/i/2023/08/25/64e8a73b60088.png'
     alt: 'cover'
 tags: ["读书笔记"]
 theme: 'dark'
@@ -46,7 +46,7 @@ featured: true
 
 
 
-![](https://bkimg.cdn.bcebos.com/pic/58ee3d6d55fbb2fb66e86f46404a20a44723dca6?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxNTA=,g_7,xp_5,yp_5/format,f_auto)
+![](https://i.imgs.ovh/i/2023/08/25/64e8a73b60088.png)
 
 
 
