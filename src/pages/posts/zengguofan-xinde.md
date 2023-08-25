@@ -5,7 +5,7 @@ pubDate: 2023-08-25
 description: '曾国藩启示录，关于修炼自己，为人处事，齐家，人生经历等'
 author: 'UncleLLD'
 cover:
-    url: 'https://mmbiz.qpic.cn/mmbiz_png/Ftnt4m7Mlgg0L3r88x2O1mTibphk0tU35YRAiaFrq6mCARlOmWNaZiarbAB4C8MmhicUbQBb0c2G4L0gAFle3V155Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_co=1&tp=webp'
+    url: 'https://bkimg.cdn.bcebos.com/pic/58ee3d6d55fbb2fb66e86f46404a20a44723dca6?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxNTA=,g_7,xp_5,yp_5/format,f_auto'
     alt: 'cover'
 tags: ["读书笔记"]
 theme: 'dark'
@@ -46,7 +46,7 @@ featured: true
 
 
 
-![img](https://mmbiz.qpic.cn/mmbiz_png/Ftnt4m7Mlgg0L3r88x2O1mTibphk0tU35YRAiaFrq6mCARlOmWNaZiarbAB4C8MmhicUbQBb0c2G4L0gAFle3V155Q/640?wx_fmt=png&tp=wxpic&wxfrom=5&wx_co=1&tp=webp)
+![](https://bkimg.cdn.bcebos.com/pic/58ee3d6d55fbb2fb66e86f46404a20a44723dca6?x-bce-process=image/watermark,image_d2F0ZXIvYmFpa2UxNTA=,g_7,xp_5,yp_5/format,f_auto)
 
 
 
