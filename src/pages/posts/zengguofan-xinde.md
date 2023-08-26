@@ -7,7 +7,7 @@ author: 'UncleLLD'
 cover:
     url: 'https://i.imgs.ovh/i/2023/08/25/64e8a73b60088.png'
     alt: 'cover'
-tags: ["读书笔记"]
+tags: ["书籍阅读"]
 theme: 'dark'
 featured: true
 ---
