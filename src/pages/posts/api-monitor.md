@@ -5,7 +5,7 @@ pubDate: 2023-09-25
 description: '本文介绍如何通过gmail监控api接口异常情况'
 author: 'UncleLLD'
 cover:
-    url: 'https://i.imgs.ovh/2023/09/27/PU5zT.th.png'
+    url: 'https://i.imgs.ovh/2023/09/27/PU5zT.png'
     alt: 'cover'
 tags: ["后端"]
 theme: 'dark'
@@ -125,11 +125,11 @@ d. Learn more at\n5.7.8 http://support.google.com/mail/bin/answer.py?answer=1425
 
 * 第一步：开启Gmail两步验证： **[2-step Verification(google)](https://myaccount.google.com/u/1/security)**
 
-![alt content|inline](https://lets-code-more.s3.amazonaws.com/static/uploads/2022/09/28/app_password.PNG)
+![|inline](https://lets-code-more.s3.amazonaws.com/static/uploads/2022/09/28/app_password.PNG)
 
 * 第二步：创建一个APP，并生成 APP password(要记住的，不行就截一张图) ： **[Generate App-password](https://myaccount.google.com/u/1/apppasswords)**
 
-![alt content|inline](https://lets-code-more.s3.amazonaws.com/static/uploads/2022/09/28/password.PNG)
+![|inline](https://lets-code-more.s3.amazonaws.com/static/uploads/2022/09/28/password.PNG)
 
 * 第三步：用生成的密码替换上述代码中的` your_password`即可
 
@@ -140,7 +140,7 @@ d. Learn more at\n5.7.8 http://support.google.com/mail/bin/answer.py?answer=1425
 
 ## 结果
 
-![alt content|inline](https://i.imgs.ovh/2023/09/27/PU5zT.png)
+![|inline](https://i.imgs.ovh/2023/09/27/PU5zT.png)
 
 邮箱能够正常收到Gmail的提示，后续将函数嵌入到API服务中即可完成异常的时候通过邮件告警的目的。
 
