@@ -5,7 +5,7 @@ pubDate: 2023-09-25
 description: '本文介绍如何通过gmail监控api接口异常情况'
 author: 'UncleLLD'
 cover:
-    url: 'https://i.imgs.ovh/2023/09/27/PU5zT.png'
+    url: 'https://i.imgs.ovh/2023/09/27/PUdCu.jpeg'
     alt: 'cover'
 tags: ["后端"]
 theme: 'dark'
