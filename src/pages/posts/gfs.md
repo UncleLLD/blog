@@ -42,7 +42,7 @@ GFS 与传统的分布式文件系统有着很多相同的**设计目标，比�
 
 一个 GFS 集群包含一个单独的 Master 节点3、多台 Chunk 服务器，并且同时被多个客户端访问，
 
-![图1 GFS架构](https://i.328888.xyz/2023/03/14/9HfJZ.jpeg)
+![图1 GFS架构|inline](https://i.328888.xyz/2023/03/14/9HfJZ.jpeg)
 
 
 GFS 存储的文件都被分割成固定大小的 Chunk。在 Chunk 创建的时候，Master 服务器会给每个 Chunk 分配一个不变的、全球唯一的 64 位的 Chunk 标识。Chunk 以 Linux 文件的形式保存在本地硬盘上，并且根据指定的 Chunk 标识和字节范围来读写块数据。
@@ -105,7 +105,7 @@ GFS 支持一个宽松的一致性模型，这个模型能够很好的支撑高�
 
 文件命名空间的修改（例如，文件创建）是原子性的， 仅由 Master 节点的控制：命名空间锁提供了原子性和正确性的保障；Master 节点的操作日志定义了这些操作在全局的顺序。
 
-![表1](https://i.328888.xyz/2023/03/14/9O3jQ.jpeg)
+![表1||inline](https://i.328888.xyz/2023/03/14/9O3jQ.jpeg)
 
 
 * 如果所有客户端，无论从哪个副本读取，读到的数据都一样，那么认为文件 region 是“**一致的**”；
@@ -137,7 +137,7 @@ GFS 返回给客户端一个偏移量，表示了包含了写入记录的、已�
 
 变更是一个会改变 Chunk 内容或者元数据的操作，比如写入操作或者记录追加操作。变更操作会在 Chunk的所有副本上执行。**使用租约（lease）机制来保持多个副本间变更顺序的一致性**。Master 节点为 Chunk的一个副本建立一个租约，把这个副本叫做主 Chunk。主 Chunk 对 Chunk 的所有更改操作进行序列化。所有的副本都遵从这个序列进行修改操作。修改操作全局的顺序首先由 Master 节点选择的租约的顺序决定，然后由租约中主 Chunk 分配的序列号决定。设计租约机制的目的是为了最小化 Master 节点的管理负担。即使Master节点和主Chunk失去联系，它仍然可以安全地在旧的租约到期后和另外一个Chunk副本签订新的租约。
 
-![图2 写入控制流和数据流](https://img-blog.csdnimg.cn/0cf5be5a1a8e4a9791e9fb3bc85d319a.png)
+![图2 写入控制流和数据流|inline](https://img-blog.csdnimg.cn/0cf5be5a1a8e4a9791e9fb3bc85d319a.png)
 
 
 客户机向 Master 节点询问哪一个 Chunk 服务器持有当前的租约，以及其它副本的位置。如果没有一个Chunk 持有租约，Master 节点就选择其中一个副本建立一个租约。只有在主 Chunk 不可用，或者主 Chunk 回复信息表明它已不再持有租约的时候，客户机才需要重新跟 Master 节点联系。客户机可以以任意的顺序推送数据。**Chunk 服务器接收到数据并保存在它的内部 LRU 缓存中**，一直到数据被使用或者过期交换出去。由于数据流的网络传输负载非常高，通过分离数据流和控制流，我们可以基于网络拓扑情况对数据流进行规划，提高系统性能。当所有的副本都确认接收到了数据，客户机发送写请求到主 Chunk 服务器。主 Chunk 为接收到的所有操作分配连续的序列号，这些操作可能来自不同的客户机，序列号保证了操作顺序执行。
@@ -269,7 +269,7 @@ Master 节点在例行的垃圾回收过程中移除所有的过期失效副本�
 
 ##### 6.1.1 读取
 
-![图3 合计吞吐量](https://i.328888.xyz/2023/03/14/9O9sx.jpeg)
+![图3 合计吞吐量|inline](https://i.328888.xyz/2023/03/14/9O9sx.jpeg)
 
 
 整体读取速度达到理论的极限值是 125MB/S，或者说每个客户机配置的 100Mbps 网卡达到饱和时，每个客户机读取速度的理论极限值是 12.5MB/s。对于 16 个客户机，整体的读取速度达到了 94MB/s，大约是理论整体读取速度极限值的75%，也就是说每个客户机的读取速度是6MB/s。
@@ -286,7 +286,7 @@ N 个客户机同时向 N 个不同的文件中写入数据。每个客户机以
 
 集群 A 通常被上百个工程师用于研究和开发。典型的任务是被人工初始化后连续运行数个小时。它通常读取数 MB 到数 TB 的数据。集群 B 主要用于处理当前的生产数据。集群 B 的任务持续的时间更长，在很少人工干预的情况下，持续的生成和处理数 TB 的数据集。
 
-![表2](https://i.328888.xyz/2023/03/14/9OL8L.jpeg)
+![表2|inline](https://i.328888.xyz/2023/03/14/9OL8L.jpeg)
 
 
 ##### 6.2.1 存储
@@ -299,7 +299,7 @@ Chunk 服务器总共保存了十几 GB 的元数据，大多数是来自用户�
 
 ##### 6.2.3 读写速率
 
-![表3](https://i.328888.xyz/2023/03/14/9OPqU.jpeg)
+![表3|inline](https://i.328888.xyz/2023/03/14/9OPqU.jpeg)
 
 
 读取速率要比写入速率高的多。正如设想那样，总的工作负载中，读取比例远远高于写入的比例。
@@ -320,12 +320,12 @@ Master 服务器的操作请求大概是每秒钟 200 到 500 个。Master 服�
 
 从 GFS 服务器记录的真实的 RPC 请求日志中推导重建出关于 IO 操作的统计信息，可以通过这些 RPC 请求推导出原始的读操作。
 
-![表4](https://i.328888.xyz/2023/03/14/9bVyF.jpeg)
+![表4|inline](https://i.328888.xyz/2023/03/14/9bVyF.jpeg)
 
 
 读取操作按操作涉及的数据量大小呈现了双峰分布。小的读取操作（小于 64KB）一般是由查找操作的客户端发起的，目的在于从巨大的文件中查找小块的数据。大的读取操作（大于 512KB）一般是从头到尾顺序的读取整个文件。
 
-![表5](https://i.328888.xyz/2023/03/14/9bD2C.jpeg)
+![表5|inline](https://i.328888.xyz/2023/03/14/9bD2C.jpeg)
 
 
 大的操作（超过256KB）占据了主要的传输量。小的读取（小于 64KB）虽然传输的数据量比较少，但是在读取的数据量中仍占了相当的比例，这是在文件中随机 Seek 的工作负荷而导致的。
@@ -336,7 +336,7 @@ Master 服务器的操作请求大概是每秒钟 200 到 500 个。Master 服�
 
 ##### 6.3.4 Master的工作负荷
 
-![表6](https://i.328888.xyz/2023/03/14/9bNWz.jpeg)
+![表6|inline](https://i.328888.xyz/2023/03/14/9bNWz.jpeg)
 
 
 大部分的请求都是读取操作查询 Chunk 位置信息（FindLocation）、以及修改操作查询 lease 持有者的信息（FindLease-Locker）。
@@ -368,7 +368,7 @@ Master 服务器的操作请求大概是每秒钟 200 到 500 个。Master 服�
 * Fay Chang
 * Guy Edjlali
 * Markus Gutschke
-* Kramer 
+* Kramer
 * Urs Hoelzle
 * Max Ibel, Sharon Perl, Rob Pike,
 * Debby Wallach
@@ -381,10 +381,10 @@ Master 服务器的操作请求大概是每秒钟 200 到 500 个。Master 服�
 * [3] Luis-Felipe Cabrera and Darrell D. E. Long. Swift: Using distributed disks triping to provide high I/O data rates. Computer Systems, 4(4):405–436, 1991.
 * [4] Garth A. Gibson, David F. Nagle, Khalil Amiri, Jeff Butler, Fay W. Chang, Howard Gobioff, Charles Hardin, ErikR iedel, David Rochberg, and Jim Zelenka. A cost-effective, high-bandwidth storage architecture. In Proceedings of the 8th Architectural Support for Programming Languages and Operating Systems, pages 92–103, San Jose, California, October 1998. 
 * [5] John Howard, Michael Kazar, Sherri Menees, David Nichols, Mahadev Satyanarayanan, Robert Sidebotham, and Michael West. Scale and performance in a distributed file system. ACM Transactions on Computer Systems, 6(1):51–81, February 1988.
-* [6] InterMezzo. http://www.inter-mezzo.org, 2003. 
+* [6] InterMezzo. http://www.inter-mezzo.org, 2003.
 * [7] Barbara Liskov, Sanjay Ghemawat, Robert Gruber, Paul Johnson, Liuba Shrira, and Michael Williams. Replication in the Harp file system. In 13th Symposium on Operating System Principles, pages 226–238, Pacific Grove, CA, October 1991.
-* [8] Lustre. http://www.lustreorg, 2003. 
+* [8] Lustre. http://www.lustreorg, 2003.
 * [9] David A. Patterson, Garth A. Gibson, and Randy H. Katz. A case for redundant arrays of inexpensive disks (RAID). In Proceedings of the 1988 ACM SIGMOD International Conference on Management of Data, pages 109–116, Chicago, Illinois, September 1988.
-* [10] FrankS chmuck and Roger Haskin. GPFS: A shared-diskfi le system for large computing clusters. In Proceedings of the First USENIX Conference on File and Storage Technologies, pages 231–244, Monterey, California, January 2002. 
+* [10] FrankS chmuck and Roger Haskin. GPFS: A shared-diskfi le system for large computing clusters. In Proceedings of the First USENIX Conference on File and Storage Technologies, pages 231–244, Monterey, California, January 2002.
 * [11] Steven R. Soltis, Thomas M. Ruwart, and Matthew T.O’Keefe. The Gobal File System. In Proceedings of the Fifth NASA Goddard Space Flight Center Conference on Mass Storage Systems and Technologies, College Park, Maryland, September 1996.
 * [12] Chandramohan A. Thekkath, Timothy Mann, and Edward K. Lee. Frangipani: A scalable distributed file system. In Proceedings of the 16th ACM Symposium on Operating System Principles, pages 224–237, Saint-Malo, France, October 1997

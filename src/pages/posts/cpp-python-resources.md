@@ -12,11 +12,20 @@ theme: 'dark'
 featured: true
 ---
 
-对于很多是一名计算机科学专业的学生而言，很多入门是学习的C和 C++，可能熟悉非常基本的 python 语法，以及 C++ 中相当高级的数据结构。现在想深入学习Python的话，光看很多在线教程可能没法有较大的提升，这里有一些针对C++用户学习Python的建议：
+对于很多是一名计算机科学专业的学生而言，很多入门是学习的C和 C++，可能熟悉非常基本的 python 语法，以及 C++ 中相当高级的数据结构。
+现在想深入学习Python的话，光看很多在线教程可能没法有较大的提升，这里有一些针对C++用户学习Python的建议：
 
 ## 1. 官方文档
 
-Python 是一种易于学习、功能强大的编程语言。它具有高效的高级数据结构和简单但有效的面向对象编程方法。 Python 优雅的语法和动态类型及其解释性使其成为大多数平台上许多领域的脚本编写和快速应用程序开发的理想语言。 Python 解释器和广泛的标准库可以从 Python 网站 https://www.python.org/ 以源代码或二进制形式免费提供给所有主要平台，并且可以免费分发。同一站点还包含许多免费第三方 Python 模块、程序和工具以及其他文档的分发版和指针。 Python 解释器可以使用 C 或 C++（或可从 C 调用的其他语言）实现的新函数和数据类型轻松扩展。 Python 也适合作为可定制应用程序的扩展语言。 本教程向读者非正式地介绍了Python语言和系统的基本概念和特性。拥有一个方便的 Python 解释器有助于获得实践经验，但所有示例都是独立的，因此也可以离线阅读本教程。
+Python 是一种易于学习、功能强大的编程语言。它具有高效的高级数据结构和简单但有效的面向对象编程方法。
+Python
+优雅的语法和动态类型及其解释性使其成为大多数平台上许多领域的脚本编写和快速应用程序开发的理想语言。
+Python 解释器和广泛的标准库可以从 Python 网站 https://www.python.org/ 以源代码或二进制形式免费提供给所有主要平台，并且可以免费分发。
+同一站点还包含许多免费第三方 Python 模块、程序和工具以及其他文档的分发版和指针。
+Python 解释器可以使用 C 或 C++（或可从 C 调用的其他语言）实现的新函数和数据类型轻松扩展。
+Python 也适合作为可定制应用程序的扩展语言。
+本教程向读者非正式地介绍了Python语言和系统的基本概念和特性。
+拥有一个方便的 Python 解释器有助于获得实践经验，但所有示例都是独立的，因此也可以离线阅读本教程。
 
 地址：[https://docs.python.org/3/tutorial/index.html](https://docs.python.org/3/tutorial/index.html)
 
@@ -31,11 +40,11 @@ Python 是一种易于学习、功能强大的编程语言。它具有高效的�
 
 * [https://python-course.eu/](https://python-course.eu/)： 该网站包含 Bernd Klein 编写的免费且内容丰富的在线教程，以及很多Python 课堂培训课程中的材料。 
 
-[![ |inline](https://i.imgs.ovh/2023/10/19/2Hfxs.png)](https://imgloc.com/image/2Hfxs)
+![ |inline](https://i.imgs.ovh/2023/10/19/2Hfxs.png)
 
 * [https://learnxinyminutes.com/docs/python/](https://learnxinyminutes.com/docs/python/):  该网页罗列出Python3中常见的语句用法，带给你一段Python语言的旋风之旅，这本指南对有软件开发经验的想快速上手Python的人群尤其受用。
 
-[![ |inline](https://i.imgs.ovh/2023/10/19/2HmjX.png)](https://imgloc.com/image/2HmjX)
+![ |inline](https://i.imgs.ovh/2023/10/19/2HmjX.png)
 
 
 
@@ -62,7 +71,7 @@ Python 是一种易于学习、功能强大的编程语言。它具有高效的�
 * [https://realpython.com/](https://realpython.com/)
 * [https://www.codecademy.com/catalog/language/python](https://www.codecademy.com/catalog/language/python)
 * [https://pyvideo.org/pycon-us-2014/so-you-want-to-be-a-full-stack-developer-how-to.html](https://pyvideo.org/pycon-us-2014/so-you-want-to-be-a-full-stack-developer-how-to.html)
-* [Neckbeard Republic ](https://realpython.com/courses/) 
+* [Neckbeard Republic ](https://realpython.com/courses/)
 * [PyVideo](http://www.pyvideo.org/)
 
 ### 7. 相关资讯

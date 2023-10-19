@@ -646,7 +646,7 @@ from IPython.display import display, HTML
 display(HTML(response))
 ```
 
-![image-20230613182033585](C:\Users\DELL-3020\AppData\Roaming\Typora\typora-user-images\image-20230613182033585.png)
+![|inline](https://i.imgs.ovh/2023/10/19/2Hs7N.png)
 
 本章的主要内容是 LLM 在开发应用程序中的迭代式提示开发过程。开发者需要先尝试编写提示，然后通过迭代逐步完善它，直至得到需要的结果。关键在于拥有一种有效的开发Prompt的过程，而不是知道完美的Prompt。对于一些更复杂的应用程序，可以对多个样本进行迭代开发提示并进行评估。最后，可以在更成熟的应用程序中测试多个Prompt在多个样本上的平均或最差性能
 

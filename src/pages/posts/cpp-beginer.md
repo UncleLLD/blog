@@ -22,7 +22,7 @@ featured: true
     *   Clang-Format
     *   Vim
 
-![1.png](https://i.imgs.ovh/i/2023/08/20/64e1739a50591.png)
+![|inline](https://i.imgs.ovh/i/2023/08/20/64e1739a50591.png)
 
 ## 职业选择
 
@@ -54,7 +54,7 @@ featured: true
 *   2011年，C++0x正式发布，成为了现代C++的基础
 
 
-![2.png](https://i.imgs.ovh/i/2023/08/20/64e1739ae3df5.png)
+![|inline](https://i.imgs.ovh/i/2023/08/20/64e1739ae3df5.png)
 
 针对每个人的情况学习路线也不一样：
 
@@ -91,7 +91,7 @@ static std::integral_constant<int, sizeof..(A)> argument_count_impl(R(F::*)(A...
 ```
 
 
-![3.png](https://i.imgs.ovh/i/2023/08/20/64e17399dee41.png)
+![|inline](https://i.imgs.ovh/i/2023/08/20/64e17399dee41.png)
 
 ### 线程池，异步任务
 
@@ -160,5 +160,3 @@ static std::integral_constant<int, sizeof..(A)> argument_count_impl(R(F::*)(A...
 *   如何管理内存
 *   如何快速使用c++ 20编写一个小demo
 *   如何理解大项目的脉络
-
-

@@ -16,7 +16,7 @@ featured: true
 
 ## 数据结构与算法
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/202109092112373.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/202109092112373.png)
 
 > 数据结构是程序的骨架，而算法则是程序的灵魂。
 
@@ -52,7 +52,7 @@ featured: true
 
 集合结构中的数据元素是无序的，并且每个数据元素都是唯一的，集合中没有相同的数据元素。集合结构很像数学意义上的「集合」。
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/202109092116404.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/202109092116404.png)
 
 * 线性结构
 
@@ -60,7 +60,7 @@ featured: true
 
 线性结构中的数据元素（除了第一个和最后一个元素），左侧和右侧分别只有一个数据与其相邻。线性结构类型包括：数组、链表，以及由它们衍生出来的栈、队列、哈希表。
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/202109092117492.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/202109092117492.png)
 
 * 树形结构
 
@@ -68,7 +68,7 @@ featured: true
 
 最简单的树形结构是二叉树。这种结构可以简单的表示为：根， 左子树， 右子树。 左子树和右子树又有自己的子树。树形结构类型还包括：多叉树、字典树等。
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/202109092118089.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/202109092118089.png)
 
 * 图形结构
 
@@ -78,7 +78,7 @@ featured: true
 
 在图形结构中，任意两个结点之间都可能相关，即结点之间的邻接关系可以是任意的。图形结构类型包括：无向图、有向图、连通图等。
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/202109092119090.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/202109092119090.png)
 
 
 
@@ -92,7 +92,7 @@ featured: true
 
 > **顺序存储结构（Sequential Storage Structure）**：将数据元素存放在一片地址连续的存储单元里，数据元素之间的逻辑关系通过数据元素的存储地址来直接反映。
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/202109092121742.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/202109092121742.png)
 
 在顺序存储结构中，逻辑上相邻的数据元素在物理地址上也必然相邻 。
 
@@ -102,7 +102,7 @@ featured: true
 
 > **链式存储结构（Linked Storage Structure）**：将数据元素存放在任意的存储单元里，存储单元可以连续，也可以不连续。
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/202109092120553.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/202109092120553.png)
 
 链式存储结构中，逻辑上相邻的数据元素在物理地址上可能相邻，可也能不相邻。其在物理地址上的表现是随机的。链式存储结构中，一般将每个数据元素占用的若干单元的组合称为一个链结点。每个链结点不仅要存放一个数据元素的数据信息，还要存放一个指出这个数据元素在逻辑关系的直接后继元素所在链结点的地址，该地址被称为指针。换句话说，数据元素之间的逻辑关系是通过指针来间接反映的。
 
@@ -492,37 +492,37 @@ LeetCode 上有 3000+ 道的编程问题，支持 16+ 种编程语言（C、C++�
 2. 输入手机号，获取验证码。
 3. 输入验证码之后，点击「登录 / 注册」，就注册好了。
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/20210901155409.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/20210901155409.png)
 
 #### 2. LeetCode题库
 
 「[题库](https://leetcode.cn/problemset/algorithms/)」是 LeetCode 上最直接的练习入口，在这里可以根据题目的标签、难度、状态进行刷题。也可以按照随机一题开始刷题。
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/20210901155423.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/20210901155423.png)
 
 ##### 题目标签
 
 LeetCode 的题目涉及了许多算法和数据结构。有贪心，搜索，动态规划，链表，二叉树，哈希表等等，可以通过选择对应标签进行专项刷题，同时也可以看到对应专题的完成度情况。
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/20210901155435.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/20210901155435.png)
 
 ##### 题目列表
 
 LeetCode 提供了题目的搜索过滤功能。可以筛选相关题单、不同难易程度、题目完成状态、不同标签的题目。还可以根据题目编号、题解数目、通过率、难度、出现频率等进行排序。
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/20210901155450.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/20210901155450.png)
 
 ##### 当前进度
 
 当前进度提供了一个直观的进度展示。在这里可以看到自己的练习概况。进度会自动展现当前的做题情况。也可以点击「[进度设置](https://leetcode.cn/session/)」创建新的进度，在这里还可以修改、删除相关的进度
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/20210901155500.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/20210901155500.png)
 
 ##### 题目详情
 
 从题目大相关题目点击进去，就可以看到这道题目的内容描述和代码编辑器。在这里还可以查看相关的题解和自己的提交记录。
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/20210901155529.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/20210901155529.png)
 
 #### 3. LeetCode刷题语言
 
@@ -536,13 +536,13 @@ LeetCode 提供了题目的搜索过滤功能。可以筛选相关题单、不�
 
 #### 4. LeetCode刷题流程
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/20210901155529.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/20210901155529.png)
 
 可以看到左侧区域为题目内容描述区域，在这里可以看到题目的内容描述和一些示例数据。而右侧是代码编辑区域，代码编辑区域里边默认显示了待实现的方法。
 
 需要在代码编辑器中根据方法给定的参数实现对应的算法，并返回题目要求的结果。然后还要经过「执行代码」测试结果，点击「提交」后，显示执行结果为「**通过**」时，才算完成一道题目。
 
-![img](https://datawhalechina.github.io/leetcode-notes/images/20210901155545.png)
+![|inline](https://datawhalechina.github.io/leetcode-notes/images/20210901155545.png)
 
 总结一下刷题流程为：
 

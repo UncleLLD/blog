@@ -5,7 +5,7 @@ pubDate: 2023-08-25
 description: '曾国藩启示录，关于修炼自己，为人处事，齐家，人生经历'
 author: 'UncleLLD'
 cover:
-    url: 'https://i.imgs.ovh/i/2023/08/25/64e8a73b60088.png'
+    url: 'https://i.imgs.ovh/2023/10/19/2M8zl.th.png'
     alt: 'cover'
 tags: ["书籍阅读"]
 theme: 'dark'
@@ -46,7 +46,7 @@ featured: true
 
 
 
-![inline](https://i.imgs.ovh/i/2023/08/25/64e8a73b60088.png)
+![|inline](https://i.imgs.ovh/i/2023/08/25/64e8a73b60088.png)
 
 
 
