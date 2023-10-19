@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/MarkdownPost.astro'
 title: 'C++ 用户学习 Python 的最佳方法'
-pubDate: 2023-09-16
+pubDate: 2023-10-16
 description: '一份Python学习资源'
 author: 'UncleLLD'
 cover:
