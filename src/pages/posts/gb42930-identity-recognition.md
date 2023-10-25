@@ -5,7 +5,7 @@ pubDate: 2023-10-24
 description: '国标GBT42930 互联网金融个人身份识别技术要求'
 author: 'UncleLLD'
 cover:
-    url: 'https://i0.imgs.ovh/2023/10/25/FwVYV.th.png'
+    url: 'https://i0.imgs.ovh/2023/10/25/FwFye.th.png'
     alt: 'cover'
 tags: ["书籍阅读"]
 theme: 'dark'
