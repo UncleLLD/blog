@@ -280,7 +280,7 @@ bbs_aug.remove_out_of_image().clip_out_of_image(), 100)
 ia.imshow(image_after)
 ```
 
-![pad-rotate.png](https://i0.imgs.ovh/2023/11/08/lSodD.png)
+![pad-rotate.png|inline](https://i0.imgs.ovh/2023/11/08/lSodD.png)
 
 ### 参考
 
