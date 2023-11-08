@@ -68,12 +68,12 @@ imgaug是一个用于图像增强的库，包括关键点/地标、边界框、�
 * git项目地址：[https://github.com/aleju/imgaug](https://github.com/aleju/imgaug)
 * 项目文档地址：[https://imgaug.readthedocs.io/en/latest](https://imgaug.readthedocs.io/en/latest/source/installation.html)
 
-![examples](https://i0.imgs.ovh/2023/11/08/lSFhp.png)
+![examples|inline](https://i0.imgs.ovh/2023/11/08/lSFhp.png)
 
 #### 安装
 
 ```shell
-pip install imageio imgaug 
+pip install imageio imgaug
 pip install imgaug — upgrade — no-deps  # 出现错误时候采用这种
 ```
 
@@ -98,7 +98,7 @@ image = imageio.v2.imread('./Lenna.jpg')
 ia.imshow(image)
 ```
 
-![Lenna.png](https://i0.imgs.ovh/2023/11/08/lSHcd.png)
+![Lenna.png|inline](https://i0.imgs.ovh/2023/11/08/lSHcd.png)
 
 #### 旋转图像Rotating
 
@@ -110,7 +110,7 @@ rotated_image = rotate.augment_image(image)
 ia.imshow(rotated_image)
 ```
 
-![rotate.png](https://i0.imgs.ovh/2023/11/08/lSM9K.png)
+![rotate.png|inline](https://i0.imgs.ovh/2023/11/08/lSM9K.png)
 
 #### 图像添加噪声Noise
 
@@ -122,7 +122,7 @@ noise_image = gaussian_noise.augment_image(image)
 ia.imshow(noise_image)
 ```
 
-![noise.png](https://i0.imgs.ovh/2023/11/08/lSwM2.png)
+![noise.png|inline](https://i0.imgs.ovh/2023/11/08/lSwM2.png)
 
 #### 图像裁剪Cropping
 
@@ -134,7 +134,7 @@ corp_image = crop.augment_image(image)
 ia.imshow(corp_image)
 ```
 
-![crop.png](https://i0.imgs.ovh/2023/11/08/lS3Sj.png)
+![crop.png|inline](https://i0.imgs.ovh/2023/11/08/lS3Sj.png)
 
 #### 图像剪切Shearing
 
@@ -146,7 +146,7 @@ shear_image=shear.augment_image(image)
 ia.imshow(shear_image)
 ```
 
-![shearing.png](https://i0.imgs.ovh/2023/11/08/lS6FV.png)
+![shearing.png|inline](https://i0.imgs.ovh/2023/11/08/lS6FV.png)
 
 #### 图像翻转Flipping
 
@@ -159,7 +159,7 @@ flip_hr_image = flip_hr.augment_image(image)
 ia.imshow(flip_hr_image)
 ```
 
-![fliplr.png](https://i0.imgs.ovh/2023/11/08/lSWhJ.png)
+![fliplr.png|inline](https://i0.imgs.ovh/2023/11/08/lSWhJ.png)
 
 Filpud垂直翻转图像
 
@@ -169,7 +169,7 @@ flip_vr_image = flip_vr.augment_image(image)
 ia.imshow(flip_vr_image)
 ```
 
-![flipud.png](https://i0.imgs.ovh/2023/11/08/lSkUW.png)
+![flipud.png|inline](https://i0.imgs.ovh/2023/11/08/lSkUW.png)
 
 #### 图像改变亮度brightness
 
@@ -181,7 +181,7 @@ contrast_image =contrast.augment_image(image)
 ia.imshow(contrast_image)
 ```
 
-![brightness.png](https://i0.imgs.ovh/2023/11/08/lSBCv.png)
+![brightness.png|inline](https://i0.imgs.ovh/2023/11/08/lSBCv.png)
 
 #### 图像缩放Scale
 
@@ -193,7 +193,7 @@ scale_image = scale_im.augment_image(image)
 ia.imshow(scale_image)
 ```
 
-![scale.png](https://i0.imgs.ovh/2023/11/08/lSI6e.png)
+![scale.png|inline](https://i0.imgs.ovh/2023/11/08/lSI6e.png)
 
 #### 对目标检测的增强
 
@@ -212,7 +212,7 @@ bbs = BoundingBoxesOnImage([BoundingBox(x1=80, x2=140, y1=70, y2=150)], shape=im
 ia.imshow(bbs.draw_on_image(image, size=2))
 ```
 
-![detection.png](https://i0.imgs.ovh/2023/11/08/lShe3.png)
+![detection.png|inline](https://i0.imgs.ovh/2023/11/08/lShe3.png)
 
 在下面的代码中，使用平移百分比来移动图像，扩大边界框，并将其应用到图像上
 
@@ -222,7 +222,7 @@ image_aug, bbs_aug = move(image=image, bounding_boxes=bbs)
 ia.imshow(bbs_aug.draw_on_image(image_aug, size=2))
 ```
 
-![move.png](https://i0.imgs.ovh/2023/11/08/lSs99.png)
+![move.png|inline](https://i0.imgs.ovh/2023/11/08/lSs99.png)
 
 ##### 在应用图像增强功能后，处理图像外部的边界框
 
@@ -234,7 +234,7 @@ image_aug, bbs_aug = rotate_bb(image=image, bounding_boxes=bbs)
 ia.imshow(bbs_aug.draw_on_image(image_aug, size=2))
 ```
 
-![rotate.png](https://i0.imgs.ovh/2023/11/08/lSbuH.png)
+![rotate.png|inline](https://i0.imgs.ovh/2023/11/08/lSbuH.png)
 
 边界框的某些部分都在图像的外部。在下面的代码中，会看到这些问题:
 
