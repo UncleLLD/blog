@@ -1,4 +1,3 @@
-
 ---
 layout: '../../layouts/MarkdownPost.astro'
 title: 'Python中的数据增强技术'
@@ -8,7 +7,7 @@ author: 'UncleLLD'
 cover:
     url: 'https://i0.imgs.ovh/2023/11/08/lSHcd.th.png'
     alt: 'cover'
-tags: ["Python", "机器学习"]
+tags: ["编程语言", "工具"]
 theme: 'dark'
 featured: true
 ---
