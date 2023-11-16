@@ -1,6 +1,6 @@
 ---
 layout: '../../layouts/MarkdownPost.astro'
-title: 'Python打包'
+title: 'Python程序打包指南：手把手教你一步步完成'
 pubDate: 2023-11-15
 description: 'Python项目打包并发布'
 author: 'UncleLLD'
@@ -12,7 +12,7 @@ theme: 'dark'
 featured: true
 ---
 
-## Python打包
+## Python程序打包指南：手把手教你一步步完成
 
 最近感兴趣想将开发的项目转成Package，研究了一下相关文章，并且自己跑通了，走了一下弯路，这里记录一下如何打包一个简单的Python项目，展示如何添加必要的文件和结构来创建包，如何构建包，以及如何将其上传到Python包索引（PyPI）。
 
