@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/MarkdownPost.astro'
 title: '魔鬼经济学'
-pubDate: 2023-10-08
+pubDate: 2023-11-16
 description: '魔鬼经济学'
 author: 'UncleLLD'
 cover:
