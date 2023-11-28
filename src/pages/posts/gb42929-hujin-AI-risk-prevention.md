@@ -20,7 +20,7 @@ featured: true
 
 
 
-![图片](https://mmbiz.qpic.cn/sz_mmbiz_png/5tB27N5ia0CrKojeqLhqA4iaDpc47Fl69ajd5aZ3sRqKhy0hWprEdMyTicm9qLvFibvYmyJIqT2EvK1gzkuHia3rzFA/640?wx_fmt=png&tp=webp)
+![cover|inline](https://i.imgs.ovh/2023/11/28/pw2Es.png)
 
 
 
@@ -30,7 +30,7 @@ featured: true
 
 《要求》显示，智能风险防控系统主要包含**“智能风险防控功能”、“智能风险防控技术”、“智能风险防控系统安全”、“智能风险防控系统运行”**4大部分。
 
-![img](https://wework.qpic.cn/wwpic/873900_MvX1vAbrT0eoFrt_1697698605/0?tp=webp)
+![arc|inline](https://i.imgs.ovh/2023/11/28/pwZKU.png)
 
 ### 智能风险防控4大功能
 
