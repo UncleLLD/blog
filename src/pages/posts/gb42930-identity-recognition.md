@@ -7,7 +7,7 @@ author: 'UncleLLD'
 cover:
     url: 'https://i0.imgs.ovh/2023/10/25/FwFye.th.png'
     alt: 'cover'
-tags: ["书籍阅读"]
+tags: ["风控"]
 theme: 'dark'
 featured: true
 ---
