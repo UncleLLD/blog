@@ -1397,3 +1397,5 @@ featured: true
 
 
 **低头一拜屠羊说，万事浮云过太虚。**
+
+![|inline](https://i.imgs.ovh/2024/01/03/09xFm.png)
