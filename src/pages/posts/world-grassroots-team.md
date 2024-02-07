@@ -12,7 +12,7 @@ theme: 'dark'
 featured: true
 
 ---
-![world.png](https://i0.imgs.ovh/2024/02/06/bd5rO.png)
+![draw by chatglm|inline](https://i0.imgs.ovh/2024/02/06/bd5rO.png)
 
 第一句话就是：**世界是个巨大的草台班子，大多数人都是很水的。**
 
