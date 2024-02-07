@@ -230,11 +230,11 @@ featured: true
 
 提供首个中文科学文献数据集（CSL），包含396,209篇中文核心期刊论文元信息（标题、摘要、关键词、学科、门类）。CSL数据集可以作为训练预语料，也可以构建许多NLP任务，例如文本摘要（标题预测）、关键词生成和文本分类等。
 
-![https://computenest-service-deploy-document-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com/dataset-csl/1.jpeg#id=qCeF3&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=](https://computenest-service-deploy-document-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com/dataset-csl/1.jpeg#id=qCeF3&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![https://computenest-service-deploy-document-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com/dataset-csl/1.jpeg|inline](https://computenest-service-deploy-document-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com/dataset-csl/1.jpeg)
 
 CSL 数据获取自 [国家科技资源共享服务工程技术研究中心](https://nstr.escience.net.cn/)， 包含 2010-2020 年发表的期刊论文元信息（标题、摘要和关键词）。根据中文核心期刊目录进行筛选， 并标注学科和门类标签，分为 13 个门类（一级标签）和 67 个学科（二级标签）。 数据总量为 396,209 条，分布如下表所示：
 
-![ inline](https://i0.imgs.ovh/2024/01/29/KW0Be.png)
+![ |inline](https://i0.imgs.ovh/2024/01/29/KW0Be.png)
 
 **订阅地址：**
 
@@ -258,7 +258,7 @@ CSL 数据获取自 [国家科技资源共享服务工程技术研究中心](htt
 
 CMMLU是针对中国的语言和文化背景设计的评测集，用来评估LLM的知识蕴含和推理能力。该评测集跨多个学科，由67个主题组成。其中大多数任务的答案都是专门针对中国的文化背景设计，不适用于其它国家的语言。如下图所示，除了涵盖人文科学、社会科学、STEM(科学、技术、工程和数学)以及其他在人类日常生活中很重要的四个通用领域的知识外，还涵盖一些特定领域的知识，用于验证模型的中国知识的蕴含能力以及对中文的理解和适应能力。
 
-![https://computenest-service-deploy-document-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com/dataset-cmmlu/1.jpeg#id=qCeF3&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=](https://computenest-service-deploy-document-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com/dataset-cmmlu/1.jpeg#id=qCeF3&originalType=binary&ratio=1&rotation=0&showTitle=false&status=done&style=none&title=)
+![https://computenest-service-deploy-document-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com/dataset-cmmlu/1.jpeg|inline](https://computenest-service-deploy-document-cn-hangzhou.oss-cn-hangzhou.aliyuncs.com/dataset-cmmlu/1.jpeg)
 
 数据集中的每个问题都是一个多项选择题，有4个选项，只有一个选项是正确答案。数据以逗号分隔的.csv文件形式存在。[数据来源于互联网](https://github.com/haonan-li/CMMLU)。
 
