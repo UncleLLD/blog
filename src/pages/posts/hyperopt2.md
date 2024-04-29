@@ -1,11 +1,11 @@
 ---
 layout: '../../layouts/MarkdownPost.astro'
-title: 'hyperopt基础进阶'
+title: 'hyperopt进阶教程'
 pubDate: 2024-04-29
 description: 'hyperopt进阶教程'
 author: 'UncleLLD'
 cover:
-    url: 'https://img2.imgtp.com/2024/04/29/O0MzTCRd.png'
+    url: 'https://img2.imgtp.com/2024/04/29/uxTfPm0y.png'
     alt: 'cover'
 tags: ["机器学习"]
 theme: 'dark'
