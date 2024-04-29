@@ -243,7 +243,9 @@ asciinema rec demo.cast
 asciinema upload demo.cast
 ```
 
-> 注意，上述配置仅适用于在本地测试服务器。要了解如何以完整功能和安全的方式设置服务器，请参阅完整的[服务器自托管指南](https://docs.asciinema.org/manual/server/self-hosting/)。
+
+注意，上述配置仅适用于在本地测试服务器。
+要了解如何以完整功能和安全的方式设置服务器，请参阅完整的[服务器自托管指南](https://docs.asciinema.org/manual/server/self-hosting/)。
 
 ## 生成GIF
 
