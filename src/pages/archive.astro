@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ArchivePostList from "../layouts/ArchivePostList.astro";
 const allPosts = await Astro.glob("./posts/*.md");
-const tags = ["计算机视觉", "风控", "推荐系统", "论文总结", 'Docker', 'Git', '后端', '工具', '编程语言', '数据结构与算法', '程序人生', 'AIGC', 'ChatGPT', '书籍阅读', '经济', '社会', '心理'];
+const tags = ["机器学习", "深度学习", "计算机视觉", "风控", "推荐系统", "论文总结", 'Docker', 'Git', '后端', '工具', '编程语言', '数据结构与算法', '程序人生', 'AIGC', 'ChatGPT', '书籍阅读', '经济', '社会', '心理'];
 const posts = [];
 
 tags.forEach((tag) => {
