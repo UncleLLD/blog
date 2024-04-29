@@ -17,7 +17,7 @@ featured: true
 
 ## LUMA AI
 
-![ ](https://img2.imgtp.com/2024/04/24/ljBev1gY.png)
+![ |inline ](https://img2.imgtp.com/2024/04/24/ljBev1gY.png)
 
 **地址：**
 
@@ -32,11 +32,11 @@ featured: true
 * 输入是至少给10张连续重叠的图片或者自己拍的视频mp4，给生成3d展示
 * 作品链接： [https://lumalabs.ai/dashboard/captures](https://lumalabs.ai/dashboard/captures)
 
-![](https://img2.imgtp.com/2024/04/24/lOINZLEx.png)
+![ |inline](https://img2.imgtp.com/2024/04/24/lOINZLEx.png)
 
 ## Gamma AI
 
-![ ](https://img2.imgtp.com/2024/04/24/K2Uy6dk9.png)
+![  |inline](https://img2.imgtp.com/2024/04/24/K2Uy6dk9.png)
 
 **地址：**
 
@@ -51,13 +51,13 @@ featured: true
   Gamma的快速增长和受欢迎程度归功于其独特的AI技术和创新性产品，这些产品正在颠覆传统的演示软件市场。凭借其在内容传播方面的优势，Gamma正在建立一个新秩序，吸引了全球数百万用户。
 * 根据笔记大纲或现有内容创建，生成，或者导入PPTword文档优化
 
-![ ](https://img2.imgtp.com/2024/04/24/ffx64q5R.png)
+![  |inline](https://img2.imgtp.com/2024/04/24/ffx64q5R.png)
 
-![](https://img2.imgtp.com/2024/04/24/cWFJKuza.png)
+![ |inline](https://img2.imgtp.com/2024/04/24/cWFJKuza.png)
 
 ## Phind
 
-![ ](https://img2.imgtp.com/2024/04/24/bhb4REeo.png)
+![  |inline](https://img2.imgtp.com/2024/04/24/bhb4REeo.png)
 
 **地址：**
 
@@ -71,13 +71,13 @@ featured: true
 
   Phind的应用场景广泛，包括在线客服、内容创作、搜索引擎优化（SEO）等领域。Phind的代码能力也被认为超越了GPT-4，提供了高准确性和速度，这使其在Big Code排行榜上取得了显著的成绩。
 
-![1713924216570.png](https://img2.imgtp.com/2024/04/24/BpZeB99v.png)
+![ |inline](https://img2.imgtp.com/2024/04/24/BpZeB99v.png)
 
-![ ](https://img2.imgtp.com/2024/04/24/Toe91mwi.png)
+![ |inline](https://img2.imgtp.com/2024/04/24/Toe91mwi.png)
 
 ## VALL-E
 
-![](https://img2.imgtp.com/2024/04/24/ruGQxNzm.png)
+![ |inline](https://img2.imgtp.com/2024/04/24/ruGQxNzm.png)
 
 **地址：**
 
@@ -96,7 +96,7 @@ featured: true
 
 ## Aalbus
 
-![1713925355935.png](https://img2.imgtp.com/2024/04/24/nUes0Ovv.png)
+![  |inline](https://img2.imgtp.com/2024/04/24/nUes0Ovv.png)
 
 **地址：**
 
@@ -113,13 +113,13 @@ featured: true
 
   Albus通过这些产品和服务，为企业和个人提供了高效、智能的解决方案，以提升工作效率和协作水平。
 
-![ ](https://img2.imgtp.com/2024/04/24/Y2HBlboU.png)
+![  |inline](https://img2.imgtp.com/2024/04/24/Y2HBlboU.png)
 
-![ ](https://img2.imgtp.com/2024/04/24/vaos51X2.png)
+![  |inline](https://img2.imgtp.com/2024/04/24/vaos51X2.png)
 
 ## Raycast
 
-![](https://img2.imgtp.com/2024/04/24/SbCDQGbR.png)
+![ |inline](https://img2.imgtp.com/2024/04/24/SbCDQGbR.png)
 
 **地址：**
 
@@ -134,13 +134,13 @@ featured: true
 
   Raycast 支持导入导出数据，方便用户在更换设备时迁移所有偏好设置及保存在其中的快捷键、自定义片段等内容。这意味着用户可以将所有数据汇聚在一个应用中，便于管理和迁移 。
 
-![](https://img2.imgtp.com/2024/04/24/zFuoqrPG.png)
+![ |inline](https://img2.imgtp.com/2024/04/24/zFuoqrPG.png)
 
-![ ](https://img2.imgtp.com/2024/04/24/T4UfUn5b.png)
+![  |inline](https://img2.imgtp.com/2024/04/24/T4UfUn5b.png)
 
 ## Warp
 
-![ ](https://img2.imgtp.com/2024/04/24/oxmp33G5.png)
+![  |inline](https://img2.imgtp.com/2024/04/24/oxmp33G5.png)
 
 **地址：**
 
@@ -159,11 +159,11 @@ featured: true
   5. **协作功能**：Warp AI 的 Warp Drive 功能允许用户将重要的命令保存为可重用的工作流，并与团队成员共享，从而提高团队协作效率。
   6. **跨平台渲染**：Warp AI 使用开源的 Rust 库来实现跨平台渲染，确保在不同平台上提供一致的性能和体验。
 
-![1713926505934.png](https://img2.imgtp.com/2024/04/24/jgvZqYZl.png)
+![ |inline](https://img2.imgtp.com/2024/04/24/jgvZqYZl.png)
 
 ## Notion
 
-![](https://img2.imgtp.com/2024/04/24/rUmu5CJz.png)
+![ |inline](https://img2.imgtp.com/2024/04/24/rUmu5CJz.png)
 
 **地址：**
 
@@ -182,11 +182,11 @@ featured: true
 
   Notion AI 的使用场景非常广泛，它可以用于创建新内容、总结会议记录、查找行动项等。通过这些功能，Notion AI 能够帮助用户更高效地管理和利用数据，自动化常见任务，如填写表格、更新日程、安排会议等。此外，Notion AI 还可以分析数据，从中提取有用的见解，帮助用户做出更明智的决策。
 
-![ ](https://img2.imgtp.com/2024/04/24/7rPPIwzB.png)
+![  |inline](https://img2.imgtp.com/2024/04/24/7rPPIwzB.png)
 
 ## Suno
 
-![1713927051293.png](https://img2.imgtp.com/2024/04/24/3qjknkKx.png)
+![ |inline](https://img2.imgtp.com/2024/04/24/3qjknkKx.png)
 
 **地址：**
 
@@ -210,7 +210,7 @@ featured: true
 
 ## Arc Search
 
-![](https://img2.imgtp.com/2024/04/24/S3emExOM.png)
+![ |inline](https://img2.imgtp.com/2024/04/24/S3emExOM.png)
 
 **地址：**
 
@@ -226,7 +226,7 @@ featured: true
 
 ## Sora
 
-![1713928487011.png](https://img2.imgtp.com/2024/04/24/fOjtqoeU.png)
+![  |inline](https://img2.imgtp.com/2024/04/24/fOjtqoeU.png)
 
 **地址：**
 
