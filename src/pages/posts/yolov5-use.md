@@ -5,7 +5,7 @@ pubDate: 2024-04-22
 description: '探索yolov5'
 author: 'UncleLLD'
 cover:
-    url: 'https://img2.imgtp.com/2024/04/22/iw4JBhkh.png'
+    url: 'https://img2.imgtp.com/2024/04/22/mhQHfaNi.png'
     alt: 'cover'
 tags: ["计算机视觉"]
 theme: 'dark'
